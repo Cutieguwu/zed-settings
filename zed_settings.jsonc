@@ -19,54 +19,53 @@
 
     "telemetry": {
         "diagnostics": true,
-        "metrics": false
+        "metrics": false,
     },
     "icon_theme": "Colored Zed Icons Theme Dark",
     "theme": {
         "mode": "system",
         "light": "One Light",
-        "dark": "Indigo | Clear"
+        "dark": "Indigo | Clear",
     },
     "restore_on_startup": "last_workspace",
     "soft_wrap": "preferred_line_length",
+    "outline_panel": {
+        "dock": "right",
+    },
 
     // Remove AI Crap
     "features": {
         "edit_prediction_provider": "none",
-        "copilot": false
+        "copilot": false,
     },
     "assistant": {
         "version": "1",
-        "enabled": false
+        "enabled": false,
     },
 
     // Remove collab stuff
     "collaboration_panel": {
-        "button": false
+        "button": false,
     },
     "chat_panel": {
-        "button": "never"
-    },
-
-    "outline_panel": {
-        "dock": "right"
+        "button": "never",
     },
 
     // Language Overrides
     "languages": {
         "Python": {
             "show_wrap_guides": true,
-            "preferred_line_length": 80
+            "preferred_line_length": 80,
         },
         "Rust": {
             "show_wrap_guides": true,
-            "preferred_line_length": 100
+            "preferred_line_length": 100,
         },
         "JSON": {
-            "tab_size": 4
+            "tab_size": 4,
         },
         "JSONC": {
-            "tab_size": 4
-        }
-    }
+            "tab_size": 4,
+        },
+    },
 }
