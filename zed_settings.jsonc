@@ -48,6 +48,10 @@
         "button": "never"
     },
 
+    "outline_panel": {
+        "dock": "right"
+    },
+
     // Language Overrides
     "languages": {
         "Python": {
