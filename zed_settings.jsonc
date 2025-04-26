@@ -7,17 +7,25 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+    // 1920x1080 (16:9) 100%
+    //
+    "ui_font_size": 15,
+    "buffer_font_size": 13,
+
+    // 2560x1600 (16:10) 115%
+    //
+    // "ui_font_size": 19,
+    // "buffer_font_size": 17,
+
     "telemetry": {
         "diagnostics": true,
-        "metrics": false,
+        "metrics": false
     },
-    "ui_font_size": 16,
-    "buffer_font_size": 13,
     "icon_theme": "Colored Zed Icons Theme Dark",
     "theme": {
         "mode": "system",
         "light": "One Light",
-        "dark": "One Dark",
+        "dark": "Indigo | Clear"
     },
     "restore_on_startup": "last_workspace",
     "soft_wrap": "preferred_line_length",
@@ -25,28 +33,36 @@
     // Remove AI Crap
     "features": {
         "edit_prediction_provider": "none",
-        "copilot": false,
+        "copilot": false
     },
     "assistant": {
         "version": "1",
-        "enabled": false,
+        "enabled": false
+    },
+
+    // Remove collab stuff
+    "collaboration_panel": {
+        "button": false
+    },
+    "chat_panel": {
+        "button": "never"
     },
 
     // Language Overrides
     "languages": {
         "Python": {
             "show_wrap_guides": true,
-            "preferred_line_length": 80,
+            "preferred_line_length": 80
         },
         "Rust": {
             "show_wrap_guides": true,
-            "preferred_line_length": 100,
+            "preferred_line_length": 100
         },
         "JSON": {
-            "tab_size": 4,
+            "tab_size": 4
         },
         "JSONC": {
-            "tab_size": 4,
-        },
-    },
+            "tab_size": 4
+        }
+    }
 }
