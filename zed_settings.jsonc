@@ -9,13 +9,13 @@
 {
     // 1920x1080 (16:9) 100%
     //
-    // "ui_font_size": 15,
-    // "buffer_font_size": 13,
+    "ui_font_size": 15,
+    "buffer_font_size": 13,
 
     // 1920x1080 (16:9) 85%
     //
-    "ui_font_size": 17,
-    "buffer_font_size": 15,
+    // "ui_font_size": 17,
+    // "buffer_font_size": 15,
 
     // 2560x1600 (16:10) 115%
     //
