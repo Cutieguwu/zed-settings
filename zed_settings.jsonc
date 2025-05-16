@@ -20,7 +20,7 @@
     // 2560x1600 (16:10) 115%
     //
     // "ui_font_size": 19,
-    // "buffer_font_size": 17,
+    // "buffer_font_size": 16,
 
     "telemetry": {
         "diagnostics": true,
