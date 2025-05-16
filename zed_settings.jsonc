@@ -81,6 +81,9 @@
             "show_wrap_guides": true,
             "preferred_line_length": 100,
         },
+        "Shell Script": {
+            "preferred_line_length": 100,
+        },
         "YAML": {
             "tab_size": 2,
         },
