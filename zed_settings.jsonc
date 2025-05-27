@@ -30,7 +30,7 @@
     "theme": {
         "mode": "system",
         "light": "One Light",
-        "dark": "Ayu Dark",
+        "dark": "Dracula",
     },
     "restore_on_startup": "last_workspace",
     "soft_wrap": "preferred_line_length",
@@ -60,9 +60,11 @@
     "languages": {
         "AsciiDoc": {},
         "CSS": {
+            "show_wrap_guides": true,
             "preferred_line_length": 60,
         },
         "HTML": {
+            "show_wrap_guides": true,
             "preferred_line_length": 100,
         },
         "JSON": {
@@ -88,7 +90,12 @@
             "show_wrap_guides": true,
             "preferred_line_length": 100,
         },
+        "SCSS": {
+            "show_wrap_guides": true,
+            "preferred_line_length": 70,
+        },
         "Shell Script": {
+            "show_wrap_guides": true,
             "preferred_line_length": 100,
         },
         "YAML": {
