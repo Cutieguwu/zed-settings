@@ -30,7 +30,7 @@
     "theme": {
         "mode": "system",
         "light": "One Light",
-        "dark": "Aura Soft Dark",
+        "dark": "Dracula",
     },
     "restore_on_startup": "last_workspace",
     "soft_wrap": "preferred_line_length",
@@ -107,5 +107,12 @@
         "YAML": {
             "tab_size": 2,
         },
+    },
+
+    "experimental.theme_overrides": {
+        "background": "#282a36ff",
+        "title_bar.background": "#141119ff",
+        "title_bar.inactive_background": "#1c1d26ff",
+        "status_bar.background": "#141119ff",
     },
 }
