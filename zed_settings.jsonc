@@ -61,6 +61,13 @@
         "button": "never",
     },
 
+    // Use Bash as default shell
+    "terminal": {
+        "shell": {
+            "program": "bash",
+        },
+    },
+
     // Language Overrides
     "languages": {
         "AsciiDoc": {},
